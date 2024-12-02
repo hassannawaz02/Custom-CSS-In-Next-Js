@@ -1,0 +1,11 @@
+.heading{
+    text-align: center;
+    font-family:sans-serif ;
+    color: rgb(28, 28, 238);
+    font-size: xx-large;
+    margin-top: 20px;
+    font: bold;
+}
+.span{
+    color: red;
+}

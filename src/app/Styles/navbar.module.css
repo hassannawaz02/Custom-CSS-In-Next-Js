@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#00bbff;
+    padding: 1rem 2rem;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navLinks li {
+    margin: 0 1rem;
+}
+
+.navLinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navLinks a:hover {
+    color: #ff9800;
+}
+
+@media (max-width: 768px) {
+    .navLinks {
+        flex-direction: column;
+        display: none;
+        background-color: #00bbff;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .navLinks li {
+        margin: 0.5rem 0;
+    }
+}
