@@ -1,4 +1,4 @@
-import Style from "./Style/about.module.css"
+import Style from "./Styles/about.module.css"
 import Link from "next/link"
 
 export default function About() {
