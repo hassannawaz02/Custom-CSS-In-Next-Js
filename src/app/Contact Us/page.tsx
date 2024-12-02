@@ -1,5 +1,5 @@
 import React from "react"
-import Style from "./Style/contact.module.css"
+import Style from "./Styles/contact.module.css"
 import Link from "next/link"
 
 export default function Contact (){
